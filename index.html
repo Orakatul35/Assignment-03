@@ -14,8 +14,7 @@
       theme: {
         extend: {
           colors: {
-            bg: '#da373d',
-
+            bg2: 'rgb(239, 235, 227)',
           },
           fontFamily : {
             sora : ["Sora", "serif"],
@@ -26,22 +25,21 @@
   </script>
 </head>
 <body>
-   <header class=" font-sora bg-gradient-to-b from-white to-[rgb(239,235,227)]  h-auto">
-     <nav class="mx-auto border-b border-green-500 sm:border-0 md:container">
-        <div class="flex justify-between pt-4">
+   <header class=" font-sora bg-gradient-to-b from-white to-[rgb(239,235,227)]  h-auto ">
+     <nav class="mx-auto border-b border-green-500 md:container sm:border-0 ">
+        <div class="flex justify-between pt-4 ">
             <div class="">
               <img class="hidden lg:block" src="./images/logo-header.png" alt="">
-              <img class="lg:hidden sm:block"   src="./images/sm logo.png" alt="">
+              <img class="lg:hidden sm:block" src="./images/sm logo.png" alt="">
             </div>  
             <div class="hidden navbar-center lg:flex">
-              <ul class="px-1 menu menu-horizontal">
+              <ul class="pl-14 menu menu-horizontal">
                 <li><a class="text-xl">Product</a></li>
                 <li><a class="text-xl">About us</a></li>
                 <li><a class="text-xl">Service</a></li>
                 <li><a class="text-xl">Contact Us</a></li>
               </ul>
             </div>
-            </button>
             <div class="hidden lg:block">
               <i class="fa-solid fa-magnifying-glass"></i>
               <i class="mx-3 fa-solid fa-cart-shopping"></i>
@@ -56,17 +54,55 @@
           </div>
      </nav>
      <!-- banner -->
-      <div class="flex justify-center mt-[90px] flex-col sm:flex-col p-2">
+      <div class="flex justify-center mt-[90px] flex-col sm:flex-col px-1">
         <h1 class="font-bold text-5xl text-[rgb(17, 17, 17)] text-center">Freshness <span class="text-[rgb(23,152,0)]">You Can <br>
           Count</span> On, Prices You’ll Love!</h1>
           <p class="mt-6 text-xl text-center font--bold">looking for farm fresh vegetables at unbeatable price? We bring you the freshed <br> handpicked product straight from the farm<img class="inline w-5 mx-1" src="./images/tomato.png" alt=""></p>
       </div>
       <div class="flex justify-center">
-        <img src="./images/hero-vegetables.png" alt="">
+        <img class="h-[600px]" src="./images/hero-vegetables.png" alt="">
       </div>
    </header> 
    <main>
-
+    <!-- Service section -->
+     <section class="mx-auto mt-48 font-bold font-sora ">
+      <!-- <h1 class="mt-24 text-5xl mb-9 text-[rgb(23,152,0)] ">Service</h1> -->
+      <div class= "flex justify-center gap-8 lg:flex-row sm:flex-col">
+        <div class="shadow-xl card w-96 bg-bg2">
+            <div class="flex justify-center pt-4">
+              <div class="flex items-center justify-center bg-white rounded-full shadow w-[150px] h-[150px]">
+                <img src="./images/service.png" />
+              </div>
+            </div>
+          <div class="card-body">
+            <h2 class="text-2xl font-bold text-center text-black">24/7 Services </h2>
+            <p class="text-xl font-light text-center">Our expert team is available 24/7 to provide top quality service.</p>
+          </div>
+        </div>
+        <div class="shadow-xl card w-96 bg-bg2">
+          <div class="flex justify-center pt-4">
+            <div class="flex items-center justify-center bg-white rounded-full shadow w-[150px] h-[150px]">
+              <img src="./images/delivery.png" />
+            </div>
+          </div>
+        <div class="card-body">
+          <h2 class="text-2xl font-bold text-center text-black">Fast Delivery</h2>
+          <p class="text-xl font-light text-center">Our deliver service is super fast. we delivery our product within 1 day.</p>
+        </div>
+      </div>
+      <div class="shadow-xl card w-96 bg-bg2">
+        <div class="flex justify-center pt-4">
+          <div class="flex items-center justify-center bg-white rounded-full shadow w-[150px] h-[150px]">
+            <img src="./images/healthy.png" />
+          </div>
+        </div>
+      <div class="card-body">
+        <h2 class="text-2xl font-bold text-center text-black">Healthy Product</h2>
+        <p class="text-xl font-light text-center">we provide farm fresh healthy product.Which is hand-picked from farm</p>
+      </div>
+    </div>
+      </div>
+     </section>
    </main>
    <footer>
 
