@@ -25,9 +25,9 @@
   </script>
 </head>
 <body>
-   <header class="font-sora bg-gradient-to-b from-white to-[rgb(239,235,227)]  h-auto w-screen">
-     <nav class="mx-auto border-b border-green-500 md:container sm:border-0 ">
-        <div class="flex justify-between pt-4 ">
+   <header class="font-sora bg-gradient-to-b from-white to-[rgb(239,235,227)]  h-auto w-full">
+     <nav class="border-b border-green-500 md:container sm:border-0">
+        <div class="flex justify-between pt-4 mx-auto">
             <div class="">
               <img class="hidden lg:block" src="./images/logo-header.png" alt="">
               <img class="lg:hidden sm:block" src="./images/sm logo.png" alt="">
@@ -104,7 +104,7 @@
       </div>
      </section>
      <!--  -->
-     <section class="font-bold bg-gradient-to-b from-white to-[rgb(239,235,227)] font-sora h-auto w-auto "> 
+     <section class="font-bold bg-gradient-to-b from-white to-[rgb(239,235,227)] font-sora h-auto w-full "> 
       <div class="container mx-auto ">
       <h1 class="mt-14 text-5xl mb-9 text-[rgb(23,152,0)] ">Popular Product</h1>
        <div class="items-start p-6- gap-14 lg:flex">
@@ -121,8 +121,8 @@
           <div>
           </div>
           <!-- Small card -->
-           <div class="grid grid-cols-2 py-4 gap-14 lg:grid-cols-3 md:col-span-2 sm:grid-cols-2 sm:gap-6">
-           <div class="flex h-auto p-4 bg-white rounded-lg shadow-lg w-52 ">
+           <div class="grid grid-cols-2 py-4 gap-14 lg:grid-cols-3 md:col-span-2 sm:grid-cols-2 sm:gap-7">
+           <div class="flex w-auto h-auto p-4 bg-white rounded-lg shadow-lg ">
             <div class="flex w-20 h-auto p-1 bg-gray-200 rounded-lg shadow-lg">
               <img class="w-full h-full text-xs" src="./images/onion.png" alt="">
             </div>
@@ -133,7 +133,7 @@
               <h2 class="flex pl-6 text-xs">$39.99</h2>
             </div>
           </div>
-          <div class="flex h-auto p-4 bg-white rounded-lg shadow-lg w-52 ">
+          <div class="flex w-auto h-auto p-4 bg-white rounded-lg shadow-lg ">
             <div class="flex w-20 h-auto p-1 bg-gray-200 rounded-lg shadow-lg">
               <img class="w-full h-full text-xs" src="./images/onion.png" alt="">
             </div>
@@ -144,7 +144,7 @@
               <h2 class="flex pl-6 text-xs">$39.99</h2>
             </div>
           </div>
-          <div class="flex h-auto p-4 bg-white rounded-lg shadow-lg w-52 ">
+          <div class="flex w-auto h-auto p-4 bg-white rounded-lg shadow-lg ">
             <div class="flex w-20 h-auto p-1 bg-gray-200 rounded-lg shadow-lg">
               <img class="w-full h-full text-xs" src="./images/onion.png" alt="">
             </div>
@@ -155,7 +155,7 @@
               <h2 class="flex pl-6 text-xs">$39.99</h2>
             </div>
           </div>
-          <div class="flex h-auto p-4 bg-white rounded-lg shadow-lg w-52 ">
+          <div class="flex w-auto h-auto p-4 bg-white rounded-lg shadow-lg ">
             <div class="flex w-20 h-auto p-1 bg-gray-200 rounded-lg shadow-lg">
               <img class="w-full h-full text-xs" src="./images/onion.png" alt="">
             </div>
@@ -166,7 +166,7 @@
               <h2 class="flex pl-6 text-xs">$39.99</h2>
             </div>
           </div>
-          <div class="flex h-auto p-4 bg-white rounded-lg shadow-lg w-52 ">
+          <div class="flex w-auto h-auto p-4 bg-white rounded-lg shadow-lg ">
             <div class="flex w-20 h-auto p-1 bg-gray-200 rounded-lg shadow-lg">
               <img class="w-full h-full text-xs" src="./images/onion.png" alt="">
             </div>
@@ -177,7 +177,7 @@
               <h2 class="flex pl-6 text-xs">$39.99</h2>
             </div>
           </div>
-          <div class="flex h-auto p-4 bg-white rounded-lg shadow-lg w-52 ">
+          <div class="flex w-auto h-auto p-4 bg-white rounded-lg shadow-lg ">
             <div class="flex w-20 h-auto p-1 bg-gray-200 rounded-lg shadow-lg">
               <img class="w-full h-full text-xs" src="./images/onion.png" alt="">
             </div>
@@ -188,7 +188,7 @@
               <h2 class="flex pl-6 text-xs">$39.99</h2>
             </div>
           </div>
-          <div class="flex h-auto p-4 bg-white rounded-lg shadow-lg w-52 ">
+          <div class="flex w-auto h-auto p-4 bg-white rounded-lg shadow-lg ">
             <div class="flex w-20 h-auto p-1 bg-gray-200 rounded-lg shadow-lg">
               <img class="w-full h-full text-xs" src="./images/onion.png" alt="">
             </div>
@@ -199,7 +199,7 @@
               <h2 class="flex pl-6 text-xs">$39.99</h2>
             </div>
           </div>
-          <div class="flex h-auto p-4 bg-white rounded-lg shadow-lg w-52 ">
+          <div class="flex w-auto h-auto p-4 bg-white rounded-lg shadow-lg ">
             <div class="flex w-20 h-auto p-1 bg-gray-200 rounded-lg shadow-lg">
               <img class="w-full h-full text-xs" src="./images/onion.png" alt="">
             </div>
@@ -210,10 +210,9 @@
               <h2 class="flex pl-6 text-xs">$39.99</h2>
             </div>
           </div>
-          <div class="sm:hidden lg:flex md:hidden">
-          <div class="h-auto p-4 bg-white rounded-lg shadow-lg lg:flex w-52">
+          <div class="w-auto h-auto p-4 bg-white rounded-lg shadow-lg lg:flex max-sm:hidden">
             <div class="w-20 h-auto p-1 bg-gray-200 rounded-lg shadow-lg">
-              <img class="w-full h-full text-xs" src="./images/onion.png" alt="">
+              <img class="w-full h-full text-xs " src="./images/onion.png" alt="">
             </div>
             <div>
               <h2 class="flex gap-2 pl-6 text-xs text-gray-400"><img class="w-3 h-auto" src="./images/star.png" alt="">4.5</h2>
@@ -221,7 +220,6 @@
               <h2 class="flex pl-6 text-xs">1 KG</h2>
               <h2 class="flex pl-6 text-xs">$39.99</h2>
             </div>
-          </div>
         </div>
            </div>
           </div> 
